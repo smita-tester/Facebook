@@ -19,12 +19,12 @@ public class Base {
 		WebDriver driver=new FirefoxDriver();
 		return driver;
 	}
-	public static WebDriver openOperaBrowser()
+	/*public static WebDriver openOperaBrowser()
 	{
 		System.setProperty("webdriver.opera.driver","E:\\smita11\\opera11\\operadriver_win64\\operadriver_win64\\operadriver.exe");
 		WebDriver driver=new OperaDriver();
 		return driver;
-	}
+	}*/
 	
 
 }
